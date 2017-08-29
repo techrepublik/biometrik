@@ -1,0 +1,12 @@
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\BiometricClients.exe.config
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\BiometricClients.exe
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\BiometricClients.pdb
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\EntityFramework.dll
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\EntityFramework.xml
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\obj\Debug\BiometricClients.csprojResolveAssemblyReference.cache
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\obj\Debug\BiometricClients.Properties.Resources.resources
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\obj\Debug\BiometricClients.csproj.GenerateResource.Cache
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\obj\Debug\BiometricClients.exe
+C:\Users\josh\Documents\GitHub\BiometricClients\BiometricClients\obj\Debug\BiometricClients.pdb
