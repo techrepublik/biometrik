@@ -15,7 +15,7 @@ namespace BiometricClients.DAL.Manager
             var a = new Model
             {
                 ModelId = model.ModelId,
-                ModelName = model.ModelName,
+                ModelName = model.ModelName
             };
             using (_d = new DataRepository<Model>())
             {

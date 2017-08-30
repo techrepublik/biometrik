@@ -20,7 +20,7 @@ namespace BiometricClients.DAL.Manager
                 SupplierAddress = supplier.SupplierAddress,
                 SupplierContactNo = supplier.SupplierContactNo,
                 SupplierContactPerson = supplier.SupplierContactPerson,
-                SupplierIsActive = supplier.SupplierIsActive,
+                SupplierIsActive = supplier.SupplierIsActive
             };
 
             {

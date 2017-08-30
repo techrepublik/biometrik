@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace BiometricClients.DAL.Manager
 {
+    /// <summary>
+    /// ClientManager - used to managed client
+    /// 
+    /// </summary>
     class ClientManager
     {
         public static DataRepository<Client> _d;
@@ -19,8 +23,7 @@ namespace BiometricClients.DAL.Manager
                 ClientAddress = client.ClientAddress,
                 ClientContactNo = client.ClientContactNo,
                 ClientContactPerson = client.ClientContactPerson,
-                ClientIsActive = client.ClientIsActive,
-
+                ClientIsActive = client.ClientIsActive
             };
             using (_d = new DataRepository<Client>())
             {

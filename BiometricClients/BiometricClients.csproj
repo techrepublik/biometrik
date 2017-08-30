@@ -57,20 +57,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\DataRepository.cs" />
+    <Compile Include="DAL\IDataRepository.cs" />
+    <Compile Include="DAL\Manager\ClientManager.cs" />
+    <Compile Include="DAL\Manager\DeviceManager.cs" />
+    <Compile Include="DAL\Manager\ModelManager.cs" />
+    <Compile Include="DAL\Manager\SoftwareManager.cs" />
+    <Compile Include="DAL\Manager\SupplierManager.cs" />
+    <Compile Include="DAL\obj\ClientData.cs" />
+    <Compile Include="DAL\sta\StandardQueries.cs" />
     <Compile Include="data\BioModel.cs" />
     <Compile Include="data\Client.cs" />
     <Compile Include="data\Device.cs" />
     <Compile Include="data\Model.cs" />
     <Compile Include="data\Software.cs" />
     <Compile Include="data\Supplier.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="forms\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ManageClientWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ManageClientWizardForm.Designer.cs">
+      <DependentUpon>ManageClientWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\PreferencesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\PreferencesForm.Designer.cs">
+      <DependentUpon>PreferencesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ManageClientWizardForm.resx">
+      <DependentUpon>ManageClientWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\PreferencesForm.resx">
+      <DependentUpon>PreferencesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -80,7 +119,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="packages.config" />
+    <None Include="DAL\packages.config" />
+    <None Include="Properties\DataSources\BiometricClients.DAL.obj.ClientData.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

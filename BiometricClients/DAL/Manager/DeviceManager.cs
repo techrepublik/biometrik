@@ -20,7 +20,10 @@ namespace BiometricClients.DAL.Manager
                 DeviceDatePurchase = device.DeviceDatePurchase,
                 DevicePrice = device.DevicePrice,
                 DeviceIsDamage = device.DeviceIsDamage,
-                DeviceWarrantyDate = device.DeviceWarrantyDate,                
+                DeviceWarrantyDate = device.DeviceWarrantyDate,
+                ClientId = device.ClientId,
+                ModelId = device.ModelId,
+                SupplierId = device.SupplierId
             };
             using (_d = new DataRepository<Device>())
             {

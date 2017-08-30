@@ -17,7 +17,7 @@ namespace BiometricClients.DAL.Manager
             {
                 SoftwareId = software.SoftwareId,
                 SoftwareDate = software.SoftwareDate,
-                SoftwarePerson = software.SoftwarePerson,
+                SoftwarePerson = software.SoftwarePerson
             };
             {
                 using (_d = new DataRepository<Software>())
