@@ -16,5 +16,10 @@ namespace BiometricClients.forms
         {
             InitializeComponent();
         }
+
+        private void ManageClientWizardForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
